@@ -1,7 +1,7 @@
 
 
 
-let aVer  = prompt ("Cuál era el nombre de pila del Gengis khan?");
+let aVer  = prompt ("Cuál era el nombre de pila de Gengis khan?");
 
     while (aVer != "Temuyín"){ 
         alert (aVer + "??? vos decis? lo que te haría Kublai...");
