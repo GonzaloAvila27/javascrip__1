@@ -22,6 +22,14 @@ function descuento(valor){
         }
     } 
 }
+// OBJETOS constructor - Productos  -- > https://carnivore-avilagonzalo.netlify.app/
+function Productos(nombre, precio, tipo){
+    this.nombre = nombre
+    this.precio = precio
+    this.tipo = tipo
+}
+const asado = new Productos(Asado, 1200, vacuno)
+const bifeAncho = new Productos(Bife_ancho, 850, vacuno)
 //  compraTotal =  productoA + productoB +productoC 
 let descTotal = descuento(5000) //sobre el valor de compraTotal
 let compraTotal = 5000 // La suma de los productos seleccionados en el E-comerce 
