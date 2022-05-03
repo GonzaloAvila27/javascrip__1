@@ -82,13 +82,13 @@ function alcarrito(obj){
 		td5.className = "shopCount";
 		td5.innerHTML = parseInt(shop.shopPrice);
     	let td6 = document.createElement("td");   
-		tr.appendChild(td1);
-		tr.appendChild(td2);
-		tr.appendChild(td6);
-		tr.appendChild(td3);
-		tr.appendChild(td4);
-		tr.appendChild(td5);
-		cartBox.appendChild(tr);
+		tr.append(td1);
+		tr.append(td2);
+		tr.append(td6);
+		tr.append(td3);
+		tr.append(td4);
+		tr.append(td5);
+		cartBox.append(tr);
 	}
 	allShopPriceTotal();
 }
