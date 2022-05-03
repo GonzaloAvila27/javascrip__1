@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="/2/css/styles.css">
+		<title>Carrito de compras</title>
+	</head>
+	<body>
+		<div class="contenedor">
+		<div>
+			<div id="shop">
+				<ul>
+					<li>
+						<a href="#" onclick="alcarrito(this);">
+							<img src="/2/multimedia/asado-new.jpg" height="100" width="100"/><br/>
+							<span class="price">1200.00</span>$<br />
+							Añadir al carrito
+						</a>
+					</li>
+					<li>
+						<a href="#" onclick="alcarrito(this);">
+							<img src="/2/multimedia/colita_4.jpg" height="100" width="100"/><br/>
+							<span class="price">780.00</span>$<br/>
+							 Añadir al carrito
+						</a>
+					</li>
+					<li>
+						<a href="#" onclick="alcarrito(this);">
+							<img src="/2/multimedia/hamburguesas.jpg" height="100" width="100"/><br/>
+							<span class="price">2000.00</span>$<br />
+							 Añadir al carrito
+						</a>
+					</li>
+					<li>
+						<a href="#" onclick="alcarrito(this);">
+							<img src="/2/multimedia/roast-beef_1.jpg" height="100" width="100"/><br/>
+							<span class="price">900.00</span>$<br />
+							 Añadir al carrito
+						</a>
+					</li>
+					<li>
+						<a href="#" onclick="alcarrito(this);">
+							<img src="/2/multimedia/vacio_2.jpg" height="100" width="100"/><br/>
+							<span class="price">1100.00</span>$<br/>
+							 Añadir al carrito
+						</a>
+					</li>
+				</ul>
+			</div>
+	<div>
+		<h1>carrito de compras</h1>
+		<table id="tabla"  width="1200" align="center">
+			<tr>
+				<th>seleccionar</th> 
+				<th>producto</th>
+				<th></th>
+				<th>Precio p/kilo</th>
+				<th>kilos</th>
+				<th>Subtotal</th>
+			</tr>
+			<tr>
+				<td><input type="checkbox"  class="selectOne"/></td>
+			</table>
+		</div>
+		<div id="info-input">
+			<div class="total-div">
+				<span> TOTAL= <span id="resultTotalMoney">0</span>$</span>
+			</div>
+			<div class="btorinter-div">
+				<button onclick="selectDelete()" class="btdelete">Eliminar selección</button>
+			</div>
+			<div>
+				<button class="btbuy" onclick="comprar()">Comprar</button>
+			</div>
+		</div>
+	</div>
+</div>			
+        <script src="./index.js"></script>
+</body>
+</html>

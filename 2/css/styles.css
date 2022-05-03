@@ -1,0 +1,90 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(38, 0, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(43, 39, 39);
+    text-align: center;
+    max-width: 100%;
+}
+.contenedor {
+    background-color: antiquewhite;
+    max-width: 80%;
+    margin: 20px auto;
+}
+
+#tabla {
+    background-color: blanchedalmond;
+    color: black;
+    border: 3px rgb(38, 0, 255) solid;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+
+#info-input{width: 1200px;margin: 0px auto;}
+#info-input>div{
+    width: 1200px;
+    margin: 20px 0px;
+}
+.shopCount{
+    color: rgb(12, 78, 34);
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#resultTotalMoney{
+    color: orange;
+    font-size: 2rem;
+}
+.total-div{
+    text-align: right;
+}
+.btdelete{
+    float: left;
+    font-size: 1rem;
+    background-color: red;
+    color: white;
+    padding: 1rem;
+    border: 0;
+    }
+.btorinter-div{
+    height: auto;
+    overflow: auto;
+}
+.btbuy{
+    font-size: 1rem;
+    background-color: rgb(6, 4, 112);
+    color: white;
+    padding: 1rem;
+    border: 0;
+    float: right;
+}
+#shop{
+    width: 800px;margin: 0px auto;
+    height: auto;
+    overflow: auto;
+}
+#shop li{
+    text-align: center;
+    list-style: none;
+    float: left;
+    height: auto;
+    overflow: auto;
+    margin: 20px;
+}
+#shop a{
+    display: block;
+    height: auto;
+    overflow: auto;
+}
+.price{
+    color: red;
+}
+
