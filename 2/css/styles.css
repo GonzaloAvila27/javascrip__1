@@ -16,11 +16,11 @@ body {
     background-color: antiquewhite;
     max-width: 80%;
     margin: 20px auto;
+    overflow: auto;
 }
 img {
     height: 150px;
     width: 150px;
-
 }
 #tabla {
     background-color: blanchedalmond;
@@ -28,13 +28,14 @@ img {
     border: 3px rgb(38, 0, 255) solid;
     border-radius: 5px;
     margin: 10px auto;
+    max-width: 100%;
 }
-
-
-#info-input{width: 1200px;margin: 0px auto;}
+#info-input{
+    margin: 0px auto;
+}
 #info-input>div{
-    width: 1200px;
-    margin: 20px 0px;
+    margin: 2rem auto;
+    padding: 2rem auto;
 }
 .shopCount{
     color: rgb(12, 78, 34);
@@ -42,6 +43,12 @@ img {
 a{
     text-decoration: none;
     color: rgb(0, 0, 0);
+    margin: 0.1rem;
+    padding: 0.1rem;
+}
+a:hover {
+    background-color: rgb(236, 168, 65);
+    color: black;
 }
 #resultTotalMoney{
     color: orange;
@@ -49,6 +56,7 @@ a{
 }
 .total-div{
     text-align: right;
+    padding: 2rem;
 }
 .btdelete{
     float: left;
@@ -67,8 +75,6 @@ a{
     float: right;
 }
 #shop{
-    width: 800px;margin: 0px auto;
-    height: auto;
     overflow: auto;
 }
 #shop li{
@@ -86,4 +92,16 @@ a{
 }
 .price{
     color: red;
+}
+.header {
+    background-color: blue;
+    height: 10rem;
+    width: 100%;
+    top: 0;
+}
+.footer {
+    background-color: red;
+    height: 10rem;
+    width: 100%;
+    bottom: 0;
 }
